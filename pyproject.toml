@@ -13,6 +13,7 @@ boto3 = "^1.35.54"
 crewai = "^0.76.9"
 crewai-tools = "^0.13.4"
 litellm = "^1.51.3"
+langchain-aws = "^0.2.6"
 
 
 [tool.poetry.group.dev.dependencies]
