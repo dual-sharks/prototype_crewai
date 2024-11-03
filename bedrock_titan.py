@@ -4,8 +4,6 @@ from typing import Any, List, Mapping, Optional
 from langchain.llms.base import LLM
 from pydantic import PrivateAttr
 
-AWS_ACCESS_KEY = 'AKIAR5LKRLXTQ3ZTRMM3'
-AWS_SECRET_KEY = '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'
 
 class BedrockTitanLLM(LLM):
     """
