@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "prototype-crewai"
+version = "0.1.0"
+description = ""
+authors = ["ktric-cloud <kerim.tricic@dualsharks.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.7"
+langchain = "^0.3.7"
+requests = "^2.32.3"
+boto3 = "^1.35.54"
+crewai = "^0.76.9"
+crewai-tools = "^0.13.4"
+litellm = "^1.51.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
